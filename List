@@ -1,6 +1,7 @@
-Add & Modify to the file (caution: for my own use)
-Look for others.xml or cscfeature.xml. CSC
+##Add & Modify to the file (caution: for my own use)
+####Look for others.xml or cscfeature.xml. CSC
 
+Change Signal Bar:-
 <CscFeature_SystemUI_ConfigOpBrandingForDataIndicator>[B][U]ATT[/U][/B]</CscFeature_SystemUI_ConfigOpBrandingForDataIndicator>
 <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>[B][U]ATT[/U][/B]</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
 <CscFeature_SystemUI_ConfigOverrideDataIcon>LTE</CscFeature_SystemUI_ConfigOverrideDataIcon>
@@ -15,3 +16,17 @@ TMK=MetroPCS
 USC=U.S. Cellular
 XAS=Samsung Unbranded Sprint
 SPR=Sprint
+
+Add NFC Icon on Status Bar:-
+<CscFeature_NFC_StatusBarIconType>ATT</CscFeature_NFC_StatusBarIconType>
+or
+<CscFeature_NFC_StatusBarIconType>TRUE</CscFeature_NFC_StatusBarIconType>
+
+Requirements:
+-DEVICE MUST BE ROOTED (KNOX=0x1)
+-SAMSUNG DEVICE RUNNING ANDROID 5 OR ABOVE (Maybe older versions might work)
+-A File Manager that Allows you to Modify device's root directory
+
+Steps:
+1. Apply the lines
+2. Reboot or restart SystemUI
