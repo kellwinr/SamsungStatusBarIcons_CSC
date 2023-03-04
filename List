@@ -1,0 +1,15 @@
+Add & Modify to the file (caution: for my own use)
+<CscFeature_SystemUI_ConfigOpBrandingForDataIndicator>[B][U]ATT[/U][/B]</CscFeature_SystemUI_ConfigOpBrandingForDataIndicator>
+<CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>[B][U]ATT[/U][/B]</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
+<CscFeature_SystemUI_ConfigOverrideDataIcon>LTE</CscFeature_SystemUI_ConfigOverrideDataIcon>
+<CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>LTE</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
+
+4G=4G
+LTE=LTE
+ATT=AT&T
+VZW=Verizon
+TMB=Tmobile
+TMK=MetroPCS
+USC=U.S. Cellular
+XAS=Samsung Unbranded Sprint
+SPR=Sprint
