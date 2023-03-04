@@ -1,4 +1,6 @@
 Add & Modify to the file (caution: for my own use)
+Look for others.xml or cscfeature.xml. CSC
+
 <CscFeature_SystemUI_ConfigOpBrandingForDataIndicator>[B][U]ATT[/U][/B]</CscFeature_SystemUI_ConfigOpBrandingForDataIndicator>
 <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>[B][U]ATT[/U][/B]</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
 <CscFeature_SystemUI_ConfigOverrideDataIcon>LTE</CscFeature_SystemUI_ConfigOverrideDataIcon>
