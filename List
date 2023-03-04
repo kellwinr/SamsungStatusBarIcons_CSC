@@ -1,11 +1,14 @@
-##Add & Modify to the file (caution: for my own use)
-####Look for others.xml or cscfeature.xml. CSC
+Add & Modify to the file (caution: for my own use)
+Look for others.xml or cscfeature.xml. CSC
 
-Change Signal Bar:-
+Change Data Indicator Bar:-
 <CscFeature_SystemUI_ConfigOpBrandingForDataIndicator>[B][U]ATT[/U][/B]</CscFeature_SystemUI_ConfigOpBrandingForDataIndicator>
 <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>[B][U]ATT[/U][/B]</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
 <CscFeature_SystemUI_ConfigOverrideDataIcon>LTE</CscFeature_SystemUI_ConfigOverrideDataIcon>
 <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>LTE</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
+
+Change Signal Bar (global 4 to 5 bars):-
+<CscFeature_SystemUI_ConfigMaxRssiLevel>5</CscFeature_SystemUI_ConfigMaxRssiLevel>
 
 4G=4G
 LTE=LTE
@@ -29,4 +32,6 @@ Requirements:
 
 Steps:
 1. Apply the lines
-2. Reboot or restart SystemUI
+2. Modify the variable if needed
+3. Save & exit
+4. Reboot or restart SystemUI
