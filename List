@@ -19,6 +19,7 @@ TMK=MetroPCS
 USC=U.S. Cellular
 XAS=Samsung Unbranded Sprint
 SPR=Sprint
+(Side Note: Some CSC also changes the Wi-Fi icon)
 
 Add NFC Icon on Status Bar:-
 <CscFeature_NFC_StatusBarIconType>ATT</CscFeature_NFC_StatusBarIconType>
